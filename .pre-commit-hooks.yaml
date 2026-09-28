@@ -18,9 +18,11 @@
   
 - id: gdradon
   name: gdradon
-  description: "gdradon - formatter for GDScript"
+  description: "gdradon - cyclomatic complexity checker for GDScript"
   entry: gdradon cc
   language: python
   language_version: python3
   require_serial: true
   types: [gdscript]
+  args: [--max-complexity=10]
+
